@@ -1,0 +1,171 @@
+body{
+  background:url(../image/fondo2.jpg); 
+  width: 100%;
+  background-size: 100%;
+  margin: 0;
+
+}
+
+ a{
+  color: #808080;
+}
+
+#header {
+width: 100%;
+overflow: hidden;
+position: relative;
+clear: both;
+}
+
+
+#header img{
+  width: 93%;
+  height: 31rem;
+  padding: 0.1;
+  border: 9px solid  rgba(38, 38, 38, 0.7);
+  margin: 2rem 4rem;
+  background-size: 100%;
+
+}
+
+#header nav {
+float: left;
+margin: auto;
+overflow: hidden;
+width: 100%;
+font-family: 'Lobster', cursive;
+
+}
+#header ul{
+  text-align: center;
+}
+
+
+
+
+
+#header nav li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 1.25em 4em 1em 4em;
+    font-size: 1.6em;
+  
+}
+
+#header nav a{
+  text-decoration: none;
+
+ 
+}
+
+#header nav li a:hover{
+  text-decoration: none;
+  color: #ffffcc;
+}
+p, div{
+  color: #959595;
+  border-style: line;
+  font-family: 'Lora', serif;
+ 
+}
+
+#wrapper h1{
+color: #BF9D3E;
+padding: 1rem;
+margin: 0;
+font-weight: large;
+font-family: 'Signika', sans-serif;
+text-align: center;
+}
+
+#wrapper h2{
+  color: #BF9D3E;
+  margin: 2rem;
+  font-weight: normal;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.7rem;
+  
+
+}
+
+
+#wrapper li, ul{
+  color:#BF9D3E;
+}
+
+
+
+#wrapper dl{
+  color: gray;
+}
+#wrapper dt{
+  color: #ffffcc;
+  opacity: 0.7;
+}
+#wrapper .Is {
+  color: #AFEEEE;
+}
+.text p{
+  text-align: justify;
+  padding: 0 12rem;
+
+}
+
+#footer div {
+  margin: 0.4em 0;
+}
+#footer input, textarea{
+  background-color: #fff;
+  border-radius: 6px;
+  border: inset;
+  opacity: 0.6;
+
+}
+input:focus {
+  text-decoration: none;
+}
+#footer fieldset{
+  border: 9px solid  rgba(38, 38, 38, 1.9);
+ 
+}
+#footer div label {
+  width: 11%;
+  float: left;
+}
+
+#footer .btn{
+  color: #fff;
+  background-color: #BF9D3E;
+  padding: 0.2rem 0.8rem;
+
+}
+#redes {
+  width: 100%;
+  background: rgba(0,0,0,1);
+  padding: 3rem 0;
+}
+#redes a{
+  float: right;
+  text-decoration: none;
+}
+#redes a:first-child{
+  margin-right:1rem;
+  margin-left: 1rem; 
+} 
+#redes a:first-child{
+  background:url(../image/face.png) no-repeat top;
+  text-indent: -99999px;
+  width:2.5rem;
+  height:2.5rem;
+  display: block;
+}
+#redes a{
+
+  background:url(../image/twitter.png) no-repeat top;
+  text-indent: -99999px;
+  width:2.5rem;
+  height:2.5rem;
+  display: block;
+
+}
